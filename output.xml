@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <robot generated="20170503 16:01:32.621" generator="Robot 3.0.2 (Python 2.7.6 on linux2)">
 <suite source="/tutorial/tutorial.robot" id="s1" name="Tutorial">
+=======
+<robot generated="20170503 13:41:12.807" generator="Robot 3.0.2 (Python 2.7.6 on linux2)">
+<suite source="/home/rfsilva/PycharmProjects/tutorial/tutorial.robot" id="s1" name="Tutorial">
+>>>>>>> c948d37a16357b50f424d917bc0cba3fd93b5bb8
 <test id="s1-t1" name="Acess site the Daitan">
 <kw name="Open Daitan site">
 <kw name="Open Browser" library="Selenium2Library">
 <doc>Opens a new browser instance to given URL.</doc>
 <arguments>
 <arg>${SITE}</arg>
+<arg>gc</arg>
+<arg>teste</arg>
+<arg>http://192.168.3.113:4444/wd/hub</arg>
 </arguments>
+<<<<<<< HEAD
 <msg timestamp="20170503 16:01:32.684" level="INFO">Opening browser 'firefox' to base url 'http://www.google.com/'</msg>
 <kw name="Capture Page Screenshot" library="Selenium2Library">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
@@ -26,6 +35,33 @@
 </test>
 <doc>Exemple for tutorial Daitan Group</doc>
 <status status="FAIL" endtime="20170503 16:01:32.719" starttime="20170503 16:01:32.621"></status>
+=======
+<msg timestamp="20170503 13:41:12.861" level="INFO">Opening browser 'gc' to base url 'http://www.google.com/' through remote server at 'http://192.168.3.113:4444/wd/hub'</msg>
+<status status="PASS" endtime="20170503 13:41:15.098" starttime="20170503 13:41:12.861"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170503 13:41:15.236" starttime="20170503 13:41:15.098"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20170503 13:41:25.237" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" endtime="20170503 13:41:25.237" starttime="20170503 13:41:15.237"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170503 13:41:25.305" starttime="20170503 13:41:25.237"></status>
+</kw>
+<status status="PASS" endtime="20170503 13:41:25.305" starttime="20170503 13:41:12.861"></status>
+</kw>
+<status status="PASS" endtime="20170503 13:41:25.305" critical="yes" starttime="20170503 13:41:12.861"></status>
+</test>
+<doc>Exemple for tutorial Daitan Group</doc>
+<status status="PASS" endtime="20170503 13:41:25.306" starttime="20170503 13:41:12.808"></status>
+>>>>>>> c948d37a16357b50f424d917bc0cba3fd93b5bb8
 </suite>
 <statistics>
 <total>
