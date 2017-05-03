@@ -3,7 +3,7 @@ Documentation       Exemple for tutorial Daitan Group
 Library     Selenium2Library
 
 *** Variables ***
-${SITE}             http://www.daitangroup.com/
+${SITE}             http://www.google.com/
 
 
 *** Test Cases ***
