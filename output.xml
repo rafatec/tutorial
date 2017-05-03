@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170503 11:53:53.701" generator="Robot 3.0.2 (Python 2.7.6 on linux2)">
+<suite source="/home/rfsilva/PycharmProjects/tutorial/tutorial.robot" id="s1" name="Tutorial">
+<test id="s1-t1" name="Acess site the Daitan">
+<kw name="Open Daitan site">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SITE}</arg>
+</arguments>
+<msg timestamp="20170503 11:53:53.755" level="INFO">Opening browser 'firefox' to base url 'http://www.daitangroup.com/'</msg>
+<status status="PASS" endtime="20170503 11:54:01.007" starttime="20170503 11:53:53.754"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170503 11:54:01.010" starttime="20170503 11:54:01.008"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20170503 11:54:11.011" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" endtime="20170503 11:54:11.011" starttime="20170503 11:54:01.010"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170503 11:54:11.034" starttime="20170503 11:54:11.011"></status>
+</kw>
+<status status="PASS" endtime="20170503 11:54:11.035" starttime="20170503 11:53:53.754"></status>
+</kw>
+<status status="PASS" endtime="20170503 11:54:11.035" critical="yes" starttime="20170503 11:53:53.754"></status>
+</test>
+<doc>Exemple for tutorial Daitan Group</doc>
+<status status="PASS" endtime="20170503 11:54:11.036" starttime="20170503 11:53:53.702"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Tutorial" pass="1">Tutorial</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
