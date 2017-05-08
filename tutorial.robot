@@ -17,4 +17,3 @@ Open Daitan site
     maximize browser window
     sleep  10s
     close browser
-
