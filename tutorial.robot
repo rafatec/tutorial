@@ -15,5 +15,5 @@ Acess site the Daitan
 Open Daitan site
     open browser        ${SITE}         gc         teste            http://192.168.3.113:4444/wd/hub
     maximize browser window
-    sleep  10s
+    sleep  5s
     close browser
